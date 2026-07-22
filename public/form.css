@@ -1,0 +1,38 @@
+/* public/form.css */
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #9BCEC1;
+}
+
+form {
+    background-color: #FFEBD3;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+form > input {
+    height: 40px;
+    width: 100%;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+form > button {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+form > button:hover {
+    background-color: #FFB6A6;
+}

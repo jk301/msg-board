@@ -1,12 +1,14 @@
 <!-- views/form.ejs -->
 
 <html>
-    <head></head>
+    <head>
+        <link rel="stylesheet" href="/form.css">
+    </head>
     <body>
         <h2>Post a message!</h2>
         <form method="POST" action="/new">
-            <input type="text" name="msg" placeholder="Your message here !!">
-            <input type="text" name="user" placeholder="Your username here">
+            <input type="text" class="form-msg" name="msg" placeholder="Your message here !!" required>
+            <input type="text" class="form-user" name="user" placeholder="Your username here" required>
             <button type="submit">Submit</button>
         </form>
     </body>
