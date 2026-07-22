@@ -13,12 +13,27 @@ const messages = [
     text: "Hello World!",
     user: "Charles",
     added: new Date()
+  },
+  {
+    text: "Hi there!",
+    user: "Amando",
+    added: new Date()
+  },
+  {
+    text: "Hi there!",
+    user: "Amando",
+    added: new Date()
+  },
+  {
+    text: "Hi there!bhbeq3uhygcyu3gyucg2b4tcr782t3bc98t",
+    user: "Amando",
+    added: new Date()
   }
 ];
 
 
 indexRouter.get('/', (req, res) => {
-    res.render('index')
+    res.render('index', { messages: messages })
 })
 
 module.exports = indexRouter

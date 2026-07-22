@@ -5,6 +5,15 @@
         <link rel="stylesheet" href="/style.css">
     </head>
     <body>
-        Hello
+        <div class="main-head">Express-board</div>
+        <div class="msg-container">
+            <% messages.forEach((msg) => { %>
+               <div class="msg-div">
+                    <h2><%= msg.text %></h2>
+                    <h4><%= msg.user %></h4>
+                    <p><%= msg.added %></p>
+                </div> 
+            <% }) %>
+        </div>
     </body>
 </html>
