@@ -25,13 +25,19 @@ body {
     top: 0;
     z-index: 10;
 }
+
+.msg-link {
+    text-decoration: none;
+    color: black;
+}
+
 .msg-container {
     background-color: #FFEBD3;
     padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 40%;
+    min-width: 45%;
     box-sizing: border-box;
 }
 
@@ -52,7 +58,7 @@ body {
     overflow-wrap: break-word;
 }
 .msg-div > p {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .add-butt {
@@ -61,6 +67,10 @@ body {
     right: 50px;
 
     padding: 30px;
+    border-radius: 10px;
     font-family: inherit;
     font-size: 20px;
+}
+.add-butt:hover {
+    background-color: #FFB6A6;
 }
