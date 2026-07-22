@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="/style.css">
     </head>
     <body>
-        <div class="main-head">Express-board</div>
+        <nav class="main-head">Express-board</nav>
         <div class="msg-container">
             <% messages.forEach((msg) => { %>
                <div class="msg-div">
@@ -15,5 +15,8 @@
                 </div> 
             <% }) %>
         </div>
+        <a href="/new">
+            <button class="add-butt">Add a Message!</button>
+        </a>
     </body>
 </html>
