@@ -74,3 +74,7 @@ body {
 .add-butt:hover {
     background-color: #FFB6A6;
 }
+
+.msg-single {
+    margin-top: 100px;
+}
